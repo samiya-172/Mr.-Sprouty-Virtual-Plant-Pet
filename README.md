@@ -5,7 +5,7 @@ Mr.-Sprouty-Virtual-Plant-Pet
 **Mr. Sprouty** is a  Plant Pet, an interactive, C project that teaches plant care in a fun way. It is a console-based virtual game where players nurture an unknown plant species from seed to bloom. This project combines logic, randomization, and creative interaction to make a simple yet engaging virtual gardening experience.
 
 # How to Run the Project
-🔧 Requirements:
+## 🔧 Requirements:
 
 GCC compiler (or any C compiler)
 
