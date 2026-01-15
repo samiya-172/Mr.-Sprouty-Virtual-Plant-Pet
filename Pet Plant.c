@@ -1,5 +1,4 @@
-/* Pet Plant Game (Modular Version - English)
-   Author: ChatGPT
+/* Pet Plant Game
    Description: Mystery seed boxes and interactive plant care game.
    - Short story-style intro
    - Greeting and ready check
@@ -18,7 +17,7 @@
 
 #define MAX_HAPPINESS 100
 
-/* Function prototypes */
+/* Functions */
 void clear_input();
 int clamp(int val, int lo, int hi);
 void greeting();
@@ -30,7 +29,7 @@ void plant_reveal(int chosen_seed, int happiness);
 void game_exit();
 const char* plant_name(int id);
 
-/* Utility: clear any remaining characters in input buffer */
+/* Clear any remaining characters in input buffer */
 void clear_input() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF) {}
@@ -46,7 +45,7 @@ int clamp(int val, int lo, int hi) {
 /* Short intro + greeting */
 void greeting() {
     printf("Once upon a time you found a small wooden seed box on your doorstep.\n");
-    printf("Inside there are three mysterious boxes — each hiding a different seed.\n\n");
+    printf("Inside there are three mysterious boxes â€” each hiding a different seed.\n\n");
     printf("Welcome to the Pet Plant Game!\n");
 }
 
@@ -57,11 +56,11 @@ void show_happiness(int happiness) {
     if (happiness >= 85)
         printf("Your plant is very happy! Great care.\n");
     else if (happiness >= 65)
-        printf("Your plant is doing well — a little more care will make it excellent.\n");
+        printf("Your plant is doing well â€” a little more care will make it excellent.\n");
     else if (happiness >= 40)
         printf("Your plant is okay but needs more attention.\n");
     else if (happiness >= 15)
-        printf("Your plant is needy — give it water or sunlight soon.\n");
+        printf("Your plant is needy â€” give it water or sunlight soon.\n");
     else
         printf("Your plant is in poor condition. Care urgently!\n");
     printf("------------------------\n\n");
