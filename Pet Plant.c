@@ -7,7 +7,6 @@
    - Happiness numeric (0-100) + text mood
    - Growth stages: Seed -> Sprout -> Young Plant -> Blooming -> Mature
    - Guessing after every 5 steps, reveal and replay options
-   - No emojis
 */
 
 #include <stdio.h>
